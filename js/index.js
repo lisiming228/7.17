@@ -145,6 +145,7 @@ function slider(){
         num++;
     }
 }
+num++;
 var t=setInterval(slider,3000)
 for(let i=0;i<bannerImg.length;i++){
     bannerImg[i].onmouseover=function(){
